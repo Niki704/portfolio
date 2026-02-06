@@ -12,7 +12,7 @@ export default function Projects() {
                             <p className="text-xs uppercase tracking-wider font-bold text-primary mb-4">Next.js • Supabase • ML</p>
                             <p className="text-foreground/70 mb-6 leading-relaxed text-sm">
                                 A commercial-level full stack gaming community platform. Features authentication, role-based access,
-                                public feed, clan management, and an ML model to classify players based on performance.
+                                public feed, clan management, tournaments, and an ML model to classify players based on performance.
                             </p>
                         </div>
                         <div className="px-8 pb-8">
@@ -23,7 +23,7 @@ export default function Projects() {
                     {/* University Event Management System */}
                     <div className="group relative bg-white dark:bg-zinc-900 rounded-3xl overflow-hidden border border-foreground/10 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-primary/10 flex flex-col">
                         <div className="p-8 flex-1">
-                            <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">Uni Event System</h3>
+                            <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">Uni Management System</h3>
                             <p className="text-xs uppercase tracking-wider font-bold text-primary mb-4">Spring Boot • MySQL • Hibernate</p>
                             <p className="text-foreground/70 mb-6 leading-relaxed text-sm">
                                 A RESTful backend system to manage students, lecturers, & batches.
@@ -80,6 +80,19 @@ export default function Projects() {
                         </div>
                     </div>
 
+                    {/* Hospital Billing System */}
+                    <div className="group relative bg-white dark:bg-zinc-900 rounded-3xl overflow-hidden border border-foreground/10 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-primary/10 flex flex-col">
+                        <div className="p-8 flex-1">
+                            <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">Hospital Billing System</h3>
+                            <p className="text-xs uppercase tracking-wider font-bold text-primary mb-4">C</p>
+                            <p className="text-foreground/70 mb-6 leading-relaxed text-sm">
+                                C-based hospital billing system that marked my first deep dive into programming, combining core language fundamentals into a structured, state-driven application without external frameworks.
+                            </p>
+                        </div>
+                        <div className="px-8 pb-8">
+                            <span className="text-sm font-bold text-foreground/40 group-hover:text-foreground/80 transition-colors">Programming Fundamentals Project</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

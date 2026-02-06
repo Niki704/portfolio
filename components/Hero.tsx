@@ -8,7 +8,7 @@ export default function Hero() {
                 Full Stack Software Engineer.
             </h2>
             <p className="mt-6 text-xl text-foreground/60 max-w-2xl">
-                BSc (Hons) Undergraduate & Pro Gamer combining system design with competitive drive.
+                BSc (Hons) Software Engineering Undergraduate combining system design skills with a strong problem-solving mindset.
             </p>
         </section>
     );

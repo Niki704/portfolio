@@ -6,16 +6,13 @@ export default function About() {
                 <div className="grid md:grid-cols-2 gap-12 items-start">
                     <div className="space-y-6 text-lg text-foreground/80">
                         <p>
-                            I am a <strong>Full Stack Software Engineer</strong> and an undergraduate reading for my <strong>BSc (Hons) in Software Engineering</strong> at Coventry University (UK).
-                            I currently hold a Higher National Diploma and a Diploma in Software Engineering from NIBM (GPA 3.7/4.0), where I honed my skills in <strong>Java (Spring Boot), Next.js, and Flutter</strong>.
+                            I am a <strong>Software Engineering undergraduate</strong> currently reading for my <strong>BSc (Hons) in Software Engineering</strong> at Coventry University (UK). I have completed a <strong>Diploma in Software Engineering</strong> and am finalizing my <strong>Higher National Diploma</strong> at NIBM, maintaining a <strong>GPA of 3.7/4.0</strong>. Through this academic journey, I have built a strong foundation in <strong>Java, Next.js, and core web development concepts</strong>, along with experience using <strong>modern frameworks</strong>.
                         </p>
                         <p>
-                            My focus is on designing well-structured systems, considering user needs, data flow, and reliable architecture.
-                            I'm actively seeking a Software Engineering Internship to apply my skills in real-world projects.
+                            My focus is on <strong>designing well-structured and reliable systems</strong>, with careful attention to <strong>user needs, data flow, and scalable architecture</strong>. I am actively seeking a <strong>Software Engineering Internship</strong> where I can apply my skills in commercial-grade environments and continue growing as an engineer.
                         </p>
                         <p>
-                            Beyond coding, I am a professional <strong>Call of Duty: Mobile</strong> player.
-                            My channel 'CoD Niki' has amassed massive views, teaching me discipline, strategic thinking, and resilience under pressure.
+                            Beyond academics and development work, I have experience in <strong>competitive esports</strong>, which has strengthened my <strong>leadership, discipline, and strategic thinking</strong>—skills that translate directly into collaborative engineering teams.
                         </p>
                     </div>
 
@@ -45,7 +42,7 @@ export default function About() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="w-3 h-3 bg-primary rounded-full"></span>
-                                <span>CoD Mobile Content Creator</span>
+                                <span className="font-bold">Founder of Zifty & CoD Mobile Content Creator</span>
                             </li>
                         </ul>
                     </div>

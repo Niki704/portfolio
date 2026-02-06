@@ -13,12 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Niki | Software Engineer & Pro Gamer",
-  description: "Personal portfolio of Niki, Software Engineering undergraduate and CoD Mobile professional.",
+  title: "Niklesh - Personal Portfolio",
+  description: "Personal portfolio of Niki704, Software Engineering undergraduate in NIBM",
 };
 
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { DownloadCV } from "@/components/download-cv";
 
 export default function RootLayout({
   children,
@@ -36,7 +37,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header className="fixed top-0 right-0 p-6 z-50 flex justify-end items-center">
+          <header className="fixed top-0 right-0 p-6 z-50 flex items-center gap-4">
+            <DownloadCV />
             <ThemeToggle />
           </header>
           {children}
