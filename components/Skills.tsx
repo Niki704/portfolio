@@ -1,3 +1,5 @@
+import CoreSkillsAccordion from "./CoreSkillsAccordion";
+
 export default function Skills() {
     const languages = ["Java", "C", "C#", "JavaScript", "TypeScript"];
     const mobile = ["Flutter (Dart)", "Kotlin"];
@@ -65,25 +67,18 @@ export default function Skills() {
 
                 {/* Core Skills Section */}
                 <div className="mt-20">
-                    <h2 className="text-4xl font-bold mb-12 text-primary">Core Skills</h2>
-                    <div className="space-y-8">
-                        {[
-                            { title: "Advanced Problem Solving", desc: "Ability to break down complex system requirements into manageable, scalable, and efficient code components." },
-                            { title: "User-Centric Design", desc: "Focusing on the end-user experience by implementing intuitive interfaces and smooth interaction flows." },
-                            { title: "Agile Methodology", desc: "Experienced in iterative development, sprint planning, and adapting to changing requirements rapidly." },
-                            { title: "Code Optimization", desc: "Writing clean, maintainable, and high-performance code to ensure optimal application speed and reliability." }
-                        ].map((skill, index) => (
-                            <div key={index} className="flex gap-4 items-start">
-                                <div className="w-3 h-3 rounded-full bg-primary mt-2.5 shrink-0" />
-                                <div>
-                                    <h3 className="text-xl font-bold text-primary mb-2">{skill.title}</h3>
-                                    <p className="text-foreground/70 leading-relaxed max-w-2xl">
-                                        {skill.desc}
-                                    </p>
-                                </div>
-                            </div>
-                        ))}
+                    <div className="flex items-center gap-2 mb-12">
+                        <h2 className="text-4xl font-bold text-primary">Core Skills</h2>
+                        <p className="text-2xl font-bold text-primary pt-1"> (Important) </p>
                     </div>
+                    <CoreSkillsAccordion
+                        skills={[
+                            { title: "System Architecture & Design", desc: "I begin every feature by analyzing requirements and selecting a technology stack that balances efficiency, maintainability, and scalability. My approach is database-first—I design the data model early, as it often exposes architectural issues at first sight. After a feasibility check, I define how features and services interconnect and how data flows across the application to ensure user needs are met. Before any feature reaches production, a security review is a mandatory part of my process." },
+                            { title: "Problem Solving from a User Perspective", desc: "When addressing a requirement, I approach it from the user’s perspective, not just as a developer. Small oversights can easily lead to UX frustration, so I consider how each feature behaves in real user environments. Many implementations fail because they focus solely on how to build something rather than how it is experienced. Even simple navigation or interaction issues can negatively impact usability. Especially in academic environments where dedicated QA teams are unavailable, this mindset allows me to proactively identify issues and ensure user expectations are fulfilled." },
+                            { title: "Prioritizing Logic Over Syntax", desc: "When it comes to business logic, coding itself is not the most important part. Every domain has its own logic and underlying infrastructure that must be understood first. If that understanding is wrong, even the most polished UI cannot compensate. This mindset shaped the start of my development journey while building a hospital billing system. Before writing any code, I studied how real-world billing systems operate, then designed functions that interact with each other to accurately satisfy those business requirements." },
+                            { title: "Code Review & Understanding Codebases", desc: "AI has significantly accelerated modern development, productivity has increased—but I never rely on it blindly. Regardless of the source or language, I review and understand code before integrating it into a project. Knowing what the code does is essential for debugging, maintaining quality, and ensuring security. The same discipline applies when working with existing codebases—before making changes, I take time to understand why each file exists, how components interact, and where responsibilities lie. This ensures safe modifications and long-term maintainability." }
+                        ]}
+                    />
                 </div>
             </div>
         </section>
