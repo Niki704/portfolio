@@ -4,7 +4,7 @@ export default function Connect() {
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-8 text-primary">Let's Connect</h2>
                 <p className="text-xl text-foreground/70 mb-12 max-w-2xl mx-auto">
-                    Whether you're interested in my coding projects or my gaming content, I'd love to hear from you.
+                    Whether you're interested in my work, projects, or potential opportunities, I'd be happy to connect.
                 </p>
 
                 <div className="flex flex-col md:flex-row justify-center gap-6">
