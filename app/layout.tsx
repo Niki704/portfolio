@@ -14,8 +14,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Niklesh - Personal Portfolio",
-  description: "Personal portfolio of Niki704, Software Engineering undergraduate in NIBM",
+  title: {
+    default: "Niklesh - Full Stack Software Engineer",
+    template: "%s | Niklesh"
+  },
+  description: "Portfolio of Niki704, a Software Engineering undergraduate specializing in Next.js, React, and System Design. Explore my projects and skills.",
+  keywords: ["Software Engineer", "Full Stack Developer", "Next.js", "React", "Portfolio", "Niki704", "Niklesh", "Web Development"],
+  authors: [{ name: "Niklesh" }],
+  creator: "Niklesh",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://niklesh.dev", // Replace with actual domain
+    title: "Niklesh - Full Stack Software Engineer",
+    description: "Building digital experiences with code. Explore my projects and technical skills.",
+    siteName: "Niklesh Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Niklesh - Full Stack Software Engineer",
+    description: "Software Engineering Undergraduate & Full Stack Developer.",
+    creator: "@niki704", // Replace with actual handle
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 import { ThemeProvider } from "@/components/theme-provider";
