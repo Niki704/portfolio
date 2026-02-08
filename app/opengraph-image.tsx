@@ -63,6 +63,10 @@ export default async function Image() {
                 </div>
                 <div
                     style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center',
                         fontSize: 40,
                         color: '#A3A3A3',
                         marginTop: 20,
@@ -72,7 +76,8 @@ export default async function Image() {
                         lineHeight: 1.4,
                     }}
                 >
-                    Full Stack Software Engineer &<br />System Architecture Enthusiast
+                    <div>Full Stack Software Engineer &</div>
+                    <div>System Architect</div>
                 </div>
             </div>
         ),
