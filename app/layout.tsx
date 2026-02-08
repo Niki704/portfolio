@@ -14,27 +14,43 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://niklesh.dev"),
+
   title: {
-    default: "Niklesh - Full Stack Software Engineer",
+    default: "Niklesh | Full Stack Software Engineer",
     template: "%s | Niklesh"
   },
-  description: "Portfolio of Niki704, a Software Engineering undergraduate specializing in Next.js, React, and System Design. Explore my projects and skills.",
-  keywords: ["Software Engineer", "Full Stack Developer", "Next.js", "React", "Portfolio", "Niki704", "Niklesh", "Web Development"],
-  authors: [{ name: "Niklesh" }],
-  creator: "Niklesh",
+
+  description: "Portfolio of Niki704, a Software Engineering undergraduate specializing in Web Development and System Architecture. Explore my work here.",
+
+  keywords: ["Software Engineer", "Full Stack Developer", "Web Developer", "Next.js", "JavaScript", "TypeScript", "React", "Portfolio", "Niki704", "Niklesh", "Niklesh Karunaweera", "Web Development", "System Design", "System Architecture"],
+
+  authors: [{ name: "Niklesh", url: "https://github.com/niki704" }],
+  creator: "Niki704",
+  publisher: "Niki704",
+
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://niklesh.dev", // Replace with actual domain
-    title: "Niklesh - Full Stack Software Engineer",
-    description: "Building digital experiences with code. Explore my projects and technical skills.",
+    url: "/",
+    title: "Niklesh - Full Stack Developer",
+    description: "Specialized in Web Development. Explore my projects and technical skills.",
     siteName: "Niklesh Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Niklesh Portfolio Preview",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Niklesh - Full Stack Software Engineer",
-    description: "Software Engineering Undergraduate & Full Stack Developer.",
-    creator: "@niki704", // Replace with actual handle
+    title: "Niklesh - Full Stack Developer",
+    description: "Software Engineering Undergraduate & System Architect.",
+    creator: "@NikleshCN",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,

@@ -15,7 +15,6 @@ export default function Icon() {
             <div
                 style={{
                     fontSize: 24,
-                    fontFamily: 'var(--font-inter)',
                     background: '#00000000',
                     width: '100%',
                     height: '100%',
@@ -24,7 +23,7 @@ export default function Icon() {
                     justifyContent: 'center',
                     color: '#0991FA',
                     borderRadius: '20%', // Rounded square
-                    fontWeight: 1000,
+                    fontWeight: 900,
                 }}
             >
                 N
