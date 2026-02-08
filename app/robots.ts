@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://niklesh.dev/sitemap.xml', // Replace with actual domain
+        sitemap: 'https://niklesh.vercel.app/sitemap.xml',
     }
 }
