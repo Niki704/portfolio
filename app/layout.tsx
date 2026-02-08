@@ -37,12 +37,21 @@ export const metadata: Metadata = {
     title: "Niklesh - Full Stack Developer",
     description: "Specialized in Web Development. Explore my projects and technical skills.",
     siteName: "Niklesh Portfolio",
+    images: [
+      {
+        url: "https://niklesh.vercel.app/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Niklesh - Full Stack Developer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Niklesh - Full Stack Developer",
     description: "Software Engineering Undergraduate & System Architect.",
     creator: "@NikleshCN",
+    images: ["https://niklesh.vercel.app/opengraph-image"],
   },
   robots: {
     index: true,
