@@ -33,16 +33,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "/",
+    url: "https://niklesh.vercel.app",
     title: "Niklesh - Full Stack Developer",
     description: "Specialized in Web Development. Explore my projects and technical skills.",
     siteName: "Niklesh Portfolio",
     images: [
       {
-        url: "https://niklesh.vercel.app/opengraph-image",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Niklesh - Full Stack Developer",
+        alt: "Niklesh Portfolio Preview",
       },
     ],
   },
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Niklesh - Full Stack Developer",
     description: "Software Engineering Undergraduate & System Architect.",
     creator: "@NikleshCN",
-    images: ["https://niklesh.vercel.app/opengraph-image"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
