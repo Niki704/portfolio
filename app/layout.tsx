@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://niklesh.vercel.app"),
+  verification: {
+    google: "yS6HIAWHFlszyynOjt0N4YKL9i-EUnaZjNp-hEJnxMc",
+  },
 
   title: {
     default: "Niklesh | Full Stack Software Engineer",
